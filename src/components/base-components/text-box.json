@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_base_components_text_boxes",
+  "info": {
+    "displayName": "Text Box"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

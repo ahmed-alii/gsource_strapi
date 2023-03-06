@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_base_components_icon_and_texts",
+  "info": {
+    "displayName": "Icon and text",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "small",
+        "wide"
+      ],
+      "required": true,
+      "default": "small"
+    },
+    "has_bg": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "rich_description": {
+      "type": "richtext"
+    }
+  }
+}

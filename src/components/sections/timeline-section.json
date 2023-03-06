@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_sections_timeline_sections",
+  "info": {
+    "displayName": "Timeline Section"
+  },
+  "options": {},
+  "attributes": {
+    "step": {
+      "type": "component",
+      "repeatable": true,
+      "component": "base-components.timeline-step"
+    }
+  }
+}

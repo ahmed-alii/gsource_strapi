@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_base_components_nav_items",
+  "info": {
+    "displayName": "Nav Item"
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
+    }
+  }
+}

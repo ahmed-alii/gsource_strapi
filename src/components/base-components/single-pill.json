@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_base_components_single_pills",
+  "info": {
+    "displayName": "single pill",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

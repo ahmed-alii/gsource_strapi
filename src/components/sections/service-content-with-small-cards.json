@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_service_content_with_small_cards",
+  "info": {
+    "displayName": "Service Content With Small Cards"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "base-components.text-box"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "base-components.icon-and-text"
+    }
+  }
+}

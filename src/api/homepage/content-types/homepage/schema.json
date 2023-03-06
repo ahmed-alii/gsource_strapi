@@ -1,0 +1,57 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "about": {
+      "displayName": "Home About",
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.home-about"
+    },
+    "Services": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.multi-icons-text-content-section"
+      ],
+      "max": 4
+    },
+    "why_choose_us": {
+      "type": "string",
+      "default": "Why us?",
+      "required": true
+    },
+    "why_us_long": {
+      "type": "richtext"
+    },
+    "features": {
+      "type": "dynamiczone",
+      "components": [
+        "base-components.icon-and-text"
+      ]
+    },
+    "why_us_read_more": {
+      "type": "string"
+    },
+    "serve_slider": {
+      "type": "dynamiczone",
+      "components": [
+        "base-components.icon-and-text"
+      ],
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_base_components_white_text_cards",
+  "info": {
+    "displayName": "White Text Card"
+  },
+  "options": {},
+  "attributes": {
+    "Number": {
+      "type": "integer"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

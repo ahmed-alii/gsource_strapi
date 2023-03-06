@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_base_components_cta_discuss_projects",
+  "info": {
+    "displayName": "CTA Discuss Project",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Not found what you want?",
+      "required": true
+    },
+    "content": {
+      "type": "richtext",
+      "default": "Get in touch with us so we can help you with your requirement.",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "base-components.button"
+    }
+  }
+}

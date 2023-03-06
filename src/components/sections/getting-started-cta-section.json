@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_getting_started_cta_sections",
+  "info": {
+    "displayName": "Getting Started CTA Section"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "base-components.text-box"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "base-components.button"
+    }
+  }
+}

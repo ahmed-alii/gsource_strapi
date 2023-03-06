@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_sections_multi_icons_text_content_sections",
+  "info": {
+    "displayName": "Multi Icons Text Content Section"
+  },
+  "options": {},
+  "attributes": {
+    "main_icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "single_icon": {
+      "type": "component",
+      "repeatable": true,
+      "component": "base-components.icon-and-text"
+    },
+    "read_more_url": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

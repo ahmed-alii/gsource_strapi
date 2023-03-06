@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_base_components_address_items",
+  "info": {
+    "displayName": "Address Item"
+  },
+  "options": {},
+  "attributes": {
+    "Country": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "string"
+    },
+    "Phone": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "image_country": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

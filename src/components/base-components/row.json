@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_base_components_rows",
+  "info": {
+    "displayName": "Row"
+  },
+  "options": {},
+  "attributes": {
+    "columns": {
+      "type": "integer",
+      "min": 1,
+      "max": 6,
+      "default": 1
+    },
+    "align": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right",
+        "center"
+      ]
+    }
+  }
+}

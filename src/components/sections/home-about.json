@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_sections_home_abouts",
+  "info": {
+    "displayName": "Home About"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "about_text": {
+      "type": "richtext"
+    },
+    "learnmore_link": {
+      "type": "string"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "base-components.icon-and-text"
+    },
+    "tech_text": {
+      "type": "text"
+    },
+    "pills": {
+      "type": "component",
+      "repeatable": true,
+      "component": "base-components.single-pill"
+    }
+  }
+}

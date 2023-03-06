@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_base_components_text_box_with_icons",
+  "info": {
+    "displayName": "Text Box With Icon"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "base-components.text-box"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_section_with_text_cards_belows",
+  "info": {
+    "displayName": "Section with text cards below"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "base-components.text-box"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "base-components.icon-and-text"
+    }
+  }
+}
